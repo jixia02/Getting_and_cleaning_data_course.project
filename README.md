@@ -22,10 +22,11 @@ run_analysis.R -- actual R code
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 # It should run in a folder of the Samsung data (the zip had this folder: UCI HAR Dataset) The script assumes it has in it's working directory the following files and folders:
-# working directory 
+Working directory is: 
 getwd()
 [1] "/Users/liujixia/coursera/Getting_and_Cleaning_Data/Courseproject"
-# files in UCI HAR Dataset folder ("/Users/liujixia/coursera/Getting_and_Cleaning_Data/Courseproject/UCI HAR Dataset"):
+
+Files in UCI HAR Dataset folder ("/Users/liujixia/coursera/Getting_and_Cleaning_Data/Courseproject/UCI HAR Dataset"):
 activity_labels.txt
 features.txt
 test/
